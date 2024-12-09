@@ -1,6 +1,8 @@
 package data_weka;
 
 import javax.swing.JFrame;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 import weka.classifiers.Classifier;
 import weka.classifiers.trees.J48;
 import weka.classifiers.trees.RandomForest;
@@ -81,8 +83,10 @@ public class Classification {
         // Train Dataset
         setOptionsFromConfig(classifier, config[0]);
         classifier.buildClassifier(trainDataset);
- 
         
+        // Save the trained classifier
+        saveClassifier(classifier, classifierName + "_model.bin");
+
         long startTime = System.currentTimeMillis();
         evaluateAndPrintResults(classifier, trainDataset, trainDataset, config[0], "Train Set");
         long endTime = System.currentTimeMillis();
@@ -163,6 +167,13 @@ public class Classification {
             } catch (Exception e) {
                 System.err.println("Tree visualization is not supported for this classifier.");
             }
+        }
+    }
+
+    private static void saveClassifier(Classifier classifier, String fileName) throws Exception {
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
+            oos.writeObject(classifier);
+            System.out.println("Saved classifier to " + fileName);
         }
     }
 }
