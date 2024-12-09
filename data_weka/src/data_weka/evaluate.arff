@@ -1,0 +1,52 @@
+@relation cleaned-dataset-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P10.0-V
+
+@attribute 'Person ID' numeric
+@attribute Gender {Male,Female}
+@attribute Age numeric
+@attribute Occupation {'Software Engineer',Doctor,'Sales Representative',Teacher,Nurse,Engineer,Accountant,Scientist,Lawyer,Salesperson,Manager}
+@attribute 'Sleep Duration' numeric
+@attribute 'Physical Activity Level' numeric
+@attribute 'Stress Level' numeric
+@attribute 'BMI Category' {Overweight,Normal,Obese,'Normal Weight'}
+@attribute 'Blood Pressure' {126/83,125/80,140/90,120/80,132/87,130/86,117/76,118/76,128/85,131/86,128/84,115/75,135/88,129/84,130/85,115/78,119/77,121/79,125/82,135/90,122/80,142/92,140/95,139/91,118/75}
+@attribute 'Heart Rate' numeric
+@attribute 'Sleep Disorder' {None,'Sleep Apnea',Insomnia}
+
+@data
+145,Male,38,Lawyer,7.1,60,5,Normal,130/85,68,'Sleep Apnea'
+123,Female,37,Accountant,7.2,60,4,Normal,115/75,68,None
+289,Female,50,Nurse,6,90,8,Overweight,140/95,75,'Sleep Apnea'
+90,Male,35,Engineer,7.3,60,4,Normal,125/80,65,None
+372,Female,59,Nurse,8.1,75,3,Overweight,140/95,68,'Sleep Apnea'
+146,Female,38,Lawyer,7.4,60,5,Obese,135/88,78,'Sleep Apnea'
+249,Male,44,Salesperson,6.4,45,7,Overweight,130/85,72,None
+40,Male,31,Doctor,7.6,75,6,Normal,120/80,70,None
+43,Male,31,Doctor,7.7,75,6,Normal,120/80,70,None
+348,Female,57,Nurse,8.2,75,3,Overweight,140/95,68,'Sleep Apnea'
+119,Female,37,Accountant,7.2,60,4,Normal,115/75,68,None
+150,Female,39,Accountant,8,80,3,'Normal Weight',115/78,67,None
+100,Female,36,Teacher,7.1,60,4,Normal,115/75,68,None
+323,Female,53,Engineer,8.4,30,3,Normal,125/80,65,None
+209,Male,43,Engineer,7.7,90,5,Normal,130/85,70,None
+30,Male,30,Doctor,7.9,75,6,Normal,120/80,70,None
+215,Male,43,Engineer,7.8,90,5,Normal,130/85,70,None
+321,Female,53,Engineer,8.5,30,3,Normal,125/80,65,None
+304,Female,51,Nurse,6,90,8,Overweight,140/95,75,'Sleep Apnea'
+141,Female,38,Accountant,7.1,60,4,Normal,115/75,68,None
+274,Female,49,Nurse,6.2,90,8,Overweight,140/95,75,'Sleep Apnea'
+88,Male,35,Engineer,7.2,60,4,Normal,125/80,65,None
+55,Male,32,Doctor,6,30,8,Normal,125/80,72,None
+181,Male,42,Lawyer,7.8,90,5,Normal,130/85,70,None
+210,Male,43,Engineer,7.8,90,5,Normal,130/85,70,None
+226,Male,44,Salesperson,6.3,45,7,Overweight,130/85,72,Insomnia
+286,Female,50,Nurse,6,90,8,Overweight,140/95,75,'Sleep Apnea'
+63,Male,32,Doctor,6.2,30,8,Normal,125/80,72,None
+92,Male,35,Engineer,7.3,60,4,Normal,125/80,65,None
+57,Male,32,Doctor,7.7,75,6,Normal,120/80,70,None
+118,Female,37,Accountant,7.2,60,4,Normal,115/75,68,None
+341,Female,55,Nurse,8.1,75,4,Overweight,140/95,72,'Sleep Apnea'
+64,Male,32,Doctor,6.2,30,8,Normal,125/80,72,None
+306,Female,51,Nurse,6.1,90,8,Overweight,140/95,75,'Sleep Apnea'
+355,Female,58,Nurse,8,75,3,Overweight,140/95,68,'Sleep Apnea'
+369,Female,59,Nurse,8.1,75,3,Overweight,140/95,68,'Sleep Apnea'
+167,Male,41,Engineer,7.3,70,6,'Normal Weight',121/79,72,None

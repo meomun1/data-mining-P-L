@@ -1,0 +1,82 @@
+@relation cleaned-dataset-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P10.0-weka.filters.unsupervised.instance.RemovePercentage-P80.0
+
+@attribute 'Person ID' numeric
+@attribute Gender {Male,Female}
+@attribute Age numeric
+@attribute Occupation {'Software Engineer',Doctor,'Sales Representative',Teacher,Nurse,Engineer,Accountant,Scientist,Lawyer,Salesperson,Manager}
+@attribute 'Sleep Duration' numeric
+@attribute 'Physical Activity Level' numeric
+@attribute 'Stress Level' numeric
+@attribute 'BMI Category' {Overweight,Normal,Obese,'Normal Weight'}
+@attribute 'Blood Pressure' {126/83,125/80,140/90,120/80,132/87,130/86,117/76,118/76,128/85,131/86,128/84,115/75,135/88,129/84,130/85,115/78,119/77,121/79,125/82,135/90,122/80,142/92,140/95,139/91,118/75}
+@attribute 'Heart Rate' numeric
+@attribute 'Sleep Disorder' {None,'Sleep Apnea',Insomnia}
+
+@data
+259,Female,45,Teacher,6.6,45,4,Overweight,135/90,65,Insomnia
+325,Female,53,Engineer,8.3,30,3,Normal,125/80,65,None
+105,Female,36,Teacher,7.2,60,4,Normal,115/75,68,'Sleep Apnea'
+51,Male,32,Engineer,7.5,45,3,Normal,120/80,70,None
+33,Female,31,Nurse,7.9,75,4,'Normal Weight',117/76,69,None
+208,Male,43,Engineer,7.7,90,5,Normal,130/85,70,None
+214,Male,43,Engineer,7.8,90,5,Normal,130/85,70,None
+109,Male,37,Engineer,7.8,70,4,'Normal Weight',120/80,68,None
+222,Male,44,Salesperson,6.4,45,7,Overweight,130/85,72,Insomnia
+15,Male,29,Doctor,6,30,8,Normal,120/80,70,None
+260,Female,45,Teacher,6.6,45,4,Overweight,135/90,65,Insomnia
+223,Male,44,Salesperson,6.3,45,7,Overweight,130/85,72,Insomnia
+201,Male,43,Salesperson,6.5,45,7,Overweight,130/85,72,Insomnia
+164,Male,40,Lawyer,7.9,90,5,Normal,130/85,68,None
+171,Male,41,Lawyer,7.7,90,5,Normal,130/85,70,None
+26,Male,30,Doctor,7.9,75,6,Normal,120/80,70,None
+50,Male,31,Doctor,7.7,75,6,Normal,120/80,70,'Sleep Apnea'
+219,Male,43,Engineer,7.8,90,5,Normal,130/85,70,'Sleep Apnea'
+220,Male,43,Salesperson,6.5,45,7,Overweight,130/85,72,'Sleep Apnea'
+36,Male,31,Doctor,6.1,30,8,Normal,125/80,72,None
+272,Female,49,Nurse,6.1,90,8,Overweight,140/95,75,'Sleep Apnea'
+365,Female,59,Nurse,8,75,3,Overweight,140/95,68,'Sleep Apnea'
+66,Male,32,Doctor,6.2,30,8,Normal,125/80,72,None
+134,Female,38,Accountant,7.1,60,4,Normal,115/75,68,None
+343,Female,56,Doctor,8.2,90,3,'Normal Weight',118/75,65,None
+284,Female,50,Nurse,6,90,8,Overweight,140/95,75,'Sleep Apnea'
+96,Female,36,Accountant,7.1,60,4,Normal,115/75,68,None
+240,Male,44,Salesperson,6.4,45,7,Overweight,130/85,72,Insomnia
+218,Male,43,Engineer,7.8,90,5,Normal,130/85,70,None
+83,Male,35,Teacher,6.7,40,5,Overweight,128/84,70,None
+367,Female,59,Nurse,8.1,75,3,Overweight,140/95,68,'Sleep Apnea'
+216,Male,43,Engineer,7.8,90,5,Normal,130/85,70,None
+178,Male,42,Salesperson,6.5,45,7,Overweight,130/85,72,Insomnia
+80,Male,33,Doctor,6,30,8,Normal,125/80,72,None
+291,Female,50,Nurse,6,90,8,Overweight,140/95,75,'Sleep Apnea'
+56,Male,32,Doctor,6,30,8,Normal,125/80,72,None
+115,Female,37,Accountant,7.2,60,4,Normal,115/75,68,None
+127,Male,38,Lawyer,7.3,60,5,Normal,130/85,68,None
+106,Male,36,Teacher,6.6,35,7,Overweight,129/84,74,Insomnia
+110,Male,37,Lawyer,7.4,60,5,Normal,130/85,68,None
+35,Male,31,Doctor,7.7,75,6,Normal,120/80,70,None
+246,Female,44,Teacher,6.5,45,4,Overweight,135/90,65,Insomnia
+344,Female,57,Nurse,8.1,75,3,Overweight,140/95,68,None
+187,Female,43,Teacher,6.7,45,4,Overweight,135/90,65,Insomnia
+364,Female,59,Nurse,8.2,75,3,Overweight,140/95,68,'Sleep Apnea'
+191,Female,43,Teacher,6.7,45,4,Overweight,135/90,65,Insomnia
+39,Male,31,Doctor,7.6,75,6,Normal,120/80,70,None
+205,Male,43,Engineer,7.6,75,4,Overweight,122/80,68,None
+4,Male,28,'Sales Representative',5.9,30,8,Obese,140/90,78,'Sleep Apnea'
+349,Female,57,Nurse,8.2,75,3,Overweight,140/95,68,'Sleep Apnea'
+241,Female,44,Teacher,6.5,45,4,Overweight,135/90,65,Insomnia
+135,Male,38,Lawyer,7.3,60,5,Normal,130/85,68,None
+117,Female,37,Accountant,7.2,60,4,Normal,115/75,68,None
+130,Male,38,Lawyer,7.3,60,5,Normal,130/85,68,None
+275,Female,49,Nurse,6.2,90,8,Overweight,140/95,75,'Sleep Apnea'
+162,Female,40,Accountant,7.2,55,6,'Normal Weight',119/77,73,None
+235,Female,44,Teacher,6.6,45,4,Overweight,135/90,65,Insomnia
+309,Female,52,Accountant,6.6,45,7,Overweight,130/85,72,Insomnia
+266,Female,48,Nurse,5.9,90,8,Overweight,140/95,75,'Sleep Apnea'
+7,Male,29,Teacher,6.3,40,7,Obese,140/90,78,Insomnia
+98,Female,36,Accountant,7.1,60,4,Normal,115/75,68,None
+8,Male,29,Doctor,7.8,75,6,Normal,120/80,70,None
+271,Female,49,Nurse,6.1,90,8,Overweight,140/95,75,'Sleep Apnea'
+95,Female,36,Accountant,7.2,60,4,Normal,115/75,68,Insomnia
+97,Female,36,Accountant,7.2,60,4,Normal,115/75,68,None
+339,Female,54,Engineer,8.5,30,3,Normal,125/80,65,None
+129,Male,38,Lawyer,7.3,60,5,Normal,130/85,68,None
